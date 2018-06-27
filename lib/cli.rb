@@ -1,5 +1,5 @@
 require "hikefinder/version"
 
-module Hikefinder
+class CLI
   # Your code goes here...
 end
