@@ -1,4 +1,4 @@
-require "hikefinder/version"
+# require "hikefinder/version"
 require 'nokogiri'
 require 'open-uri'
 require 'pry'
@@ -8,7 +8,7 @@ require_relative '../lib/trail.rb'
 class Scraper
 
   def self.scrape_trails
-    trails = [{:name=>"Inca Trail", :location=>"Peru", :distance=>"26 miles", :best_time=>"May to September", :description=>"One of the most popular hikes in the world, the Inca Trail takes you through 26 miles of grueling inclines and declines. You get a chance to explore ruins, jungle, and beautiful mountain scenery, and of course, end the hike at Machu Picchu.", :url=>"https://localadventurer.com/25-best-hikes-in-the-world-bucket-list/", :tips=>"Have fun!"}]
+    trails = [{:name=>"Inca Trail", :location=>"Peru", :distance=>"26 miles", :time=>"4 days", :best_time=>"May to September", :description=>"One of the most popular hikes in the world, the Inca Trail takes you through 26 miles of grueling inclines and declines. You get a chance to explore ruins, jungle, and beautiful mountain scenery, and of course, end the hike at Machu Picchu.", :url=>"/25-best-hikes-in-the-world-bucket-list/", :tips=>"Have fun!"}]
     # trails = []
     # doc = Nokogiri::HTML(open("https://localadventurer.com/25-best-hikes-in-the-world-bucket-list/"))
     #   doc.css('div._e296pg').each do |heading|

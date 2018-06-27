@@ -1,4 +1,4 @@
-require "hikefinder/version"
+# require "hikefinder/version"
 
 class Trail
   attr_accessor :name, :location, :distance, :time, :best_time, :description, :url, :tips
@@ -15,7 +15,7 @@ class Trail
   end
 
   def self.create_trail(trail_array)
-    trails_array.each do |trail_hash|
+    trail_array.each do |trail_hash|
       self.new(trail_hash)
     end
   end

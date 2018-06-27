@@ -1,4 +1,4 @@
-require "hikefinder/version"
+# require "hikefinder/version"
 require 'nokogiri'
 require 'colorize'
 require_relative '../lib/scraper.rb'
